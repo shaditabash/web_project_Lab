@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="log.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="parent">
+    <div class="chaid1">
+       <img src="imgs/img.jpg" alt="wait">
+       <h3>shadi Tabsh ! </h3>
+      <div class="login">
+       <form >
+        
+        <input id="name" type="text" name="username" placeholder="username"><br>
+        <input id="password" type=" password" name="password" placeholder="password">
+        <br> 
+        <button id="btn" onclick=" checked_password()">login</button>
+        <p> new user?<span>signup</span></p>
+       </form></div>
+    </div>
+    <div class="chaid2">
+        <img src="imgs/login-logo.png">
+    </div>
+</div>
+
+     <script>
+    var php_num=120210671;
+    var php_name="shadi Tabash";
+    var password=document.getElementById("password");
+    var username=document.getElementById("name");
+    function checked_password(){
+        if(php_num==password.value && php_name==username.value){
+            window.open("index.html");
+            alert("you are logged in");
+    }
+    else{
+        alert("incorrect username or password!!");
+
+    }
+}
+      </script>
+
+</body>
+</html>

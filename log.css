@@ -1,0 +1,70 @@
+
+body{
+  background-color: black;
+  padding: 50px;
+}
+.parent{
+  display: flex;
+  justify-content: space-between;
+    width: 100%;
+    background:#000 url(imgs/login-bg.jpg);
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+   border: 5px solid rgb(0, 76, 255);
+   border-radius: 20px;
+
+}
+
+.chaid1{
+  width: 50%;
+text-align: center;
+font-family: sans-serif;
+
+}
+.chaid1 img{
+  width: 120px;
+  height: 120px;
+  margin-top: 25px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 76, 255) ;
+
+
+}
+.chaid1 h3{
+  font-size: 40px;
+  text-transform: capitalize;
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
+.chaid1 input {
+ width: 320px;
+ height: 35px;
+ border-radius: 10px;
+ margin-top: 15px;
+padding-left: 10px;
+border: 2px solid rgb(0, 76, 255) ;
+}
+#btn{
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 3px solid rgb(0, 76, 255) ;
+  background-color: rgb(8, 18, 34);
+  color: white;
+}
+   .chaid1 span{
+    color: rgb(19, 19, 226);
+   } 
+.login{
+margin-top: -35px;}
+
+.chaid2{
+  width: 50%;
+text-align: center;  }
+.chaid2 img{
+  width: 350px;
+  height: 350px;
+margin-top: 50px;
+
+}
